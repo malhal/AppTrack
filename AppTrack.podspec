@@ -44,7 +44,7 @@ TODO: Add long description of the pod here.
   # s.dependency 'AFNetworking', '~> 2.3'
 
 
-#s.preserve_paths = "AppTrack"
+s.preserve_paths = "AppTrack"
 #s.frameworks = 'AppTrack'
 #s.xcconfig            = { 'FRAMEWORK_SEARCH_PATHS' => '$(PODS_ROOT)/AppTrack/' }
 #s.public_header_files = 'AppTrack/AppTrack.framework/Headers/*.h'
