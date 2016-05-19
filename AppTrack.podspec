@@ -45,8 +45,8 @@ TODO: Add long description of the pod here.
 
 
 s.preserve_paths = "AppTrack"
-#s.frameworks = 'AppTrack'
-#s.xcconfig            = { 'FRAMEWORK_SEARCH_PATHS' => '$(PODS_ROOT)/AppTrack/' }
+s.frameworks = 'AppTrack'
+s.xcconfig            = { 'FRAMEWORK_SEARCH_PATHS' => '$(PODS_ROOT)/AppTrack/Frameworks' }
 #s.public_header_files = 'AppTrack/AppTrack.framework/Headers/*.h'
 
 #s.ios.vendored_frameworks = 'AppTrack/AppTrack.framework'
