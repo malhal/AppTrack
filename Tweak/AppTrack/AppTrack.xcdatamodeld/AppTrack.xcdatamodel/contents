@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="9525" systemVersion="15D21" minimumToolsVersion="Xcode 7.0">
+    <entity name="App" representedClassName="ATSBApp" syncable="YES">
+        <attribute name="bundleIdentifier" attributeType="String" indexed="YES" syncable="YES"/>
+        <attribute name="bundleVersion" attributeType="String" indexed="YES" syncable="YES"/>
+        <relationship name="lifecycles" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Lifecycle" inverseName="app" inverseEntity="Lifecycle" syncable="YES"/>
+        <relationship name="usages" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Usage" inverseName="app" inverseEntity="Usage" syncable="YES"/>
+    </entity>
+    <entity name="Lifecycle" representedClassName="ATSBLifecycle" syncable="YES">
+        <attribute name="changeType" attributeType="Integer 16" syncable="YES"/>
+        <attribute name="date" attributeType="Date" syncable="YES"/>
+        <relationship name="app" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="App" inverseName="lifecycles" inverseEntity="App" syncable="YES"/>
+    </entity>
+    <entity name="Usage" representedClassName="ATSBUsage" syncable="YES">
+        <attribute name="endDate" optional="YES" attributeType="Date" minDateTimeInterval="0" syncable="YES"/>
+        <attribute name="startDate" attributeType="Date" syncable="YES"/>
+        <relationship name="app" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="App" inverseName="usages" inverseEntity="App" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="App" positionX="-63" positionY="-18" width="128" height="105"/>
+        <element name="Lifecycle" positionX="-63" positionY="36" width="128" height="90"/>
+        <element name="Usage" positionX="-54" positionY="0" width="128" height="30"/>
+    </elements>
+</model>

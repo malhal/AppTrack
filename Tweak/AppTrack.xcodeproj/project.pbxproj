@@ -1,0 +1,568 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EC6D271C1CF7B1D60007D1DB /* ATSBApp.h in Headers */ = {isa = PBXBuildFile; fileRef = EC6D27101CF7B1D60007D1DB /* ATSBApp.h */; };
+		EC6D271D1CF7B1D60007D1DB /* ATSBApp.m in Sources */ = {isa = PBXBuildFile; fileRef = EC6D27111CF7B1D60007D1DB /* ATSBApp.m */; };
+		EC6D271E1CF7B1D60007D1DB /* ATSBApp+CoreDataProperties.h in Headers */ = {isa = PBXBuildFile; fileRef = EC6D27121CF7B1D60007D1DB /* ATSBApp+CoreDataProperties.h */; };
+		EC6D271F1CF7B1D60007D1DB /* ATSBApp+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = EC6D27131CF7B1D60007D1DB /* ATSBApp+CoreDataProperties.m */; };
+		EC6D27201CF7B1D60007D1DB /* ATSBLifecycle.h in Headers */ = {isa = PBXBuildFile; fileRef = EC6D27141CF7B1D60007D1DB /* ATSBLifecycle.h */; };
+		EC6D27211CF7B1D60007D1DB /* ATSBLifecycle.m in Sources */ = {isa = PBXBuildFile; fileRef = EC6D27151CF7B1D60007D1DB /* ATSBLifecycle.m */; };
+		EC6D27221CF7B1D60007D1DB /* ATSBLifecycle+CoreDataProperties.h in Headers */ = {isa = PBXBuildFile; fileRef = EC6D27161CF7B1D60007D1DB /* ATSBLifecycle+CoreDataProperties.h */; };
+		EC6D27231CF7B1D60007D1DB /* ATSBLifecycle+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = EC6D27171CF7B1D60007D1DB /* ATSBLifecycle+CoreDataProperties.m */; };
+		EC6D27241CF7B1D60007D1DB /* ATSBUsage.h in Headers */ = {isa = PBXBuildFile; fileRef = EC6D27181CF7B1D60007D1DB /* ATSBUsage.h */; };
+		EC6D27251CF7B1D60007D1DB /* ATSBUsage.m in Sources */ = {isa = PBXBuildFile; fileRef = EC6D27191CF7B1D60007D1DB /* ATSBUsage.m */; };
+		EC6D27261CF7B1D60007D1DB /* ATSBUsage+CoreDataProperties.h in Headers */ = {isa = PBXBuildFile; fileRef = EC6D271A1CF7B1D60007D1DB /* ATSBUsage+CoreDataProperties.h */; };
+		EC6D27271CF7B1D60007D1DB /* ATSBUsage+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = EC6D271B1CF7B1D60007D1DB /* ATSBUsage+CoreDataProperties.m */; };
+		EC6D27291CF7B1EF0007D1DB /* Tweak.mm in Sources */ = {isa = PBXBuildFile; fileRef = EC6D27281CF7B1EF0007D1DB /* Tweak.mm */; };
+		EC6D272C1CF7B1F70007D1DB /* ATSBManager.h in Headers */ = {isa = PBXBuildFile; fileRef = EC6D272A1CF7B1F70007D1DB /* ATSBManager.h */; };
+		EC6D272D1CF7B1F70007D1DB /* ATSBManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EC6D272B1CF7B1F70007D1DB /* ATSBManager.m */; };
+		EC6D27301CF7B2100007D1DB /* ATDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = EC6D272E1CF7B2100007D1DB /* ATDefines.h */; };
+		EC6D27311CF7B2100007D1DB /* ATDefines.m in Sources */ = {isa = PBXBuildFile; fileRef = EC6D272F1CF7B2100007D1DB /* ATDefines.m */; };
+		EC6D27471CF7B2A80007D1DB /* NSDictionary+MH.h in Headers */ = {isa = PBXBuildFile; fileRef = EC6D273B1CF7B2A80007D1DB /* NSDictionary+MH.h */; };
+		EC6D27481CF7B2A80007D1DB /* NSDictionary+MH.m in Sources */ = {isa = PBXBuildFile; fileRef = EC6D273C1CF7B2A80007D1DB /* NSDictionary+MH.m */; };
+		EC6D274E1CF7B2DC0007D1DB /* bootstrap.h in Headers */ = {isa = PBXBuildFile; fileRef = EC6D274B1CF7B2DC0007D1DB /* bootstrap.h */; };
+		EC6D274F1CF7B2DC0007D1DB /* rocketbootstrap_dynamic.h in Headers */ = {isa = PBXBuildFile; fileRef = EC6D274C1CF7B2DC0007D1DB /* rocketbootstrap_dynamic.h */; };
+		EC6D27501CF7B2DC0007D1DB /* rocketbootstrap.h in Headers */ = {isa = PBXBuildFile; fileRef = EC6D274D1CF7B2DC0007D1DB /* rocketbootstrap.h */; };
+		EC6D285A1CF7B5F10007D1DB /* MHCoreDataStackManager.h in Headers */ = {isa = PBXBuildFile; fileRef = EC6D28451CF7B5F10007D1DB /* MHCoreDataStackManager.h */; };
+		EC6D285B1CF7B5F10007D1DB /* MHCoreDataStackManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EC6D28461CF7B5F10007D1DB /* MHCoreDataStackManager.m */; };
+		EC6D285C1CF7B5F10007D1DB /* MHData.h in Headers */ = {isa = PBXBuildFile; fileRef = EC6D28471CF7B5F10007D1DB /* MHData.h */; };
+		EC6D285D1CF7B5F10007D1DB /* MHDataDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = EC6D28481CF7B5F10007D1DB /* MHDataDefines.h */; };
+		EC6D285E1CF7B5F10007D1DB /* MHDataDefines.m in Sources */ = {isa = PBXBuildFile; fileRef = EC6D28491CF7B5F10007D1DB /* MHDataDefines.m */; };
+		EC6D28651CF7B5F10007D1DB /* NSEntityDescription+MH.h in Headers */ = {isa = PBXBuildFile; fileRef = EC6D28501CF7B5F10007D1DB /* NSEntityDescription+MH.h */; };
+		EC6D28661CF7B5F10007D1DB /* NSEntityDescription+MH.m in Sources */ = {isa = PBXBuildFile; fileRef = EC6D28511CF7B5F10007D1DB /* NSEntityDescription+MH.m */; };
+		EC6D28671CF7B5F10007D1DB /* NSManagedObject+MH.h in Headers */ = {isa = PBXBuildFile; fileRef = EC6D28521CF7B5F10007D1DB /* NSManagedObject+MH.h */; };
+		EC6D28681CF7B5F10007D1DB /* NSManagedObject+MH.m in Sources */ = {isa = PBXBuildFile; fileRef = EC6D28531CF7B5F10007D1DB /* NSManagedObject+MH.m */; };
+		EC6D28691CF7B5F10007D1DB /* NSManagedObjectContext+MH.h in Headers */ = {isa = PBXBuildFile; fileRef = EC6D28541CF7B5F10007D1DB /* NSManagedObjectContext+MH.h */; };
+		EC6D286A1CF7B5F10007D1DB /* NSManagedObjectContext+MH.m in Sources */ = {isa = PBXBuildFile; fileRef = EC6D28551CF7B5F10007D1DB /* NSManagedObjectContext+MH.m */; };
+		EC6D286B1CF7B5F10007D1DB /* NSManagedObjectModel+MH.h in Headers */ = {isa = PBXBuildFile; fileRef = EC6D28561CF7B5F10007D1DB /* NSManagedObjectModel+MH.h */; };
+		EC6D286C1CF7B5F10007D1DB /* NSManagedObjectModel+MH.m in Sources */ = {isa = PBXBuildFile; fileRef = EC6D28571CF7B5F10007D1DB /* NSManagedObjectModel+MH.m */; };
+		EC6D286D1CF7B5F10007D1DB /* NSPersistentStoreCoordinator+MH.h in Headers */ = {isa = PBXBuildFile; fileRef = EC6D28581CF7B5F10007D1DB /* NSPersistentStoreCoordinator+MH.h */; };
+		EC6D286E1CF7B5F10007D1DB /* NSPersistentStoreCoordinator+MH.m in Sources */ = {isa = PBXBuildFile; fileRef = EC6D28591CF7B5F10007D1DB /* NSPersistentStoreCoordinator+MH.m */; };
+		EC6D28711CF7B64A0007D1DB /* CPDistributedMessagingCenter.h in Headers */ = {isa = PBXBuildFile; fileRef = EC6D28701CF7B64A0007D1DB /* CPDistributedMessagingCenter.h */; };
+		EC6D28731CF7B66A0007D1DB /* AppTrack_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = EC6D28721CF7B66A0007D1DB /* AppTrack_Prefix.pch */; };
+		EC6D28761CF7B89B0007D1DB /* CydiaSubstrate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC6D28751CF7B89B0007D1DB /* CydiaSubstrate.framework */; };
+		EC6D28791CF7B8EB0007D1DB /* AppTrack.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EC6D28771CF7B8EB0007D1DB /* AppTrack.xcdatamodeld */; };
+		EC915C6D1C55B0DD0056DC06 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC915C6C1C55B0DD0056DC06 /* CoreData.framework */; };
+		EC915C971C55DD610056DC06 /* AppSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC915C961C55DD610056DC06 /* AppSupport.framework */; };
+		ECC980B90EE37C1C0027C8B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECC980B70EE37C1C0027C8B1 /* Foundation.framework */; };
+		ECC981600EE391B60027C8B1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECC9815F0EE391B60027C8B1 /* UIKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D2AAC0C705546C1D00DB518D /* AppTrack.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = AppTrack.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC21324F12B43B2A007EADB8 /* SpringBoardServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpringBoardServices.framework; path = System/Library/PrivateFrameworks/SpringBoardServices.framework; sourceTree = SDKROOT; };
+		EC21482812B1BAAD0028FA42 /* Preferences.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Preferences.framework; path = System/Library/PrivateFrameworks/Preferences.framework; sourceTree = SDKROOT; };
+		EC25C82C12DF6B6D00927388 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		EC25C82D12DF6B6D00927388 /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@2x.png"; sourceTree = "<group>"; };
+		EC25C83012DF6B6D00927388 /* SleepFX.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = SleepFX.plist; sourceTree = "<group>"; };
+		EC5AEC9312B1D0A100B929CE /* AppTrackSettings-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "AppTrackSettings-Info.plist"; sourceTree = "<group>"; };
+		EC6D270F1CF7B0790007D1DB /* readme.txt */ = {isa = PBXFileReference; lastKnownFileType = text; name = readme.txt; path = AppTrack/readme.txt; sourceTree = "<group>"; };
+		EC6D27101CF7B1D60007D1DB /* ATSBApp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ATSBApp.h; path = AppTrack/ATSBApp.h; sourceTree = "<group>"; };
+		EC6D27111CF7B1D60007D1DB /* ATSBApp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ATSBApp.m; path = AppTrack/ATSBApp.m; sourceTree = "<group>"; };
+		EC6D27121CF7B1D60007D1DB /* ATSBApp+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "ATSBApp+CoreDataProperties.h"; path = "AppTrack/ATSBApp+CoreDataProperties.h"; sourceTree = "<group>"; };
+		EC6D27131CF7B1D60007D1DB /* ATSBApp+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "ATSBApp+CoreDataProperties.m"; path = "AppTrack/ATSBApp+CoreDataProperties.m"; sourceTree = "<group>"; };
+		EC6D27141CF7B1D60007D1DB /* ATSBLifecycle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ATSBLifecycle.h; path = AppTrack/ATSBLifecycle.h; sourceTree = "<group>"; };
+		EC6D27151CF7B1D60007D1DB /* ATSBLifecycle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ATSBLifecycle.m; path = AppTrack/ATSBLifecycle.m; sourceTree = "<group>"; };
+		EC6D27161CF7B1D60007D1DB /* ATSBLifecycle+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "ATSBLifecycle+CoreDataProperties.h"; path = "AppTrack/ATSBLifecycle+CoreDataProperties.h"; sourceTree = "<group>"; };
+		EC6D27171CF7B1D60007D1DB /* ATSBLifecycle+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "ATSBLifecycle+CoreDataProperties.m"; path = "AppTrack/ATSBLifecycle+CoreDataProperties.m"; sourceTree = "<group>"; };
+		EC6D27181CF7B1D60007D1DB /* ATSBUsage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ATSBUsage.h; path = AppTrack/ATSBUsage.h; sourceTree = "<group>"; };
+		EC6D27191CF7B1D60007D1DB /* ATSBUsage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ATSBUsage.m; path = AppTrack/ATSBUsage.m; sourceTree = "<group>"; };
+		EC6D271A1CF7B1D60007D1DB /* ATSBUsage+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "ATSBUsage+CoreDataProperties.h"; path = "AppTrack/ATSBUsage+CoreDataProperties.h"; sourceTree = "<group>"; };
+		EC6D271B1CF7B1D60007D1DB /* ATSBUsage+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "ATSBUsage+CoreDataProperties.m"; path = "AppTrack/ATSBUsage+CoreDataProperties.m"; sourceTree = "<group>"; };
+		EC6D27281CF7B1EF0007D1DB /* Tweak.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = Tweak.mm; path = AppTrack/Tweak.mm; sourceTree = "<group>"; };
+		EC6D272A1CF7B1F70007D1DB /* ATSBManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ATSBManager.h; path = AppTrack/ATSBManager.h; sourceTree = "<group>"; };
+		EC6D272B1CF7B1F70007D1DB /* ATSBManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ATSBManager.m; path = AppTrack/ATSBManager.m; sourceTree = "<group>"; };
+		EC6D272E1CF7B2100007D1DB /* ATDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ATDefines.h; path = ../Common/ATDefines.h; sourceTree = "<group>"; };
+		EC6D272F1CF7B2100007D1DB /* ATDefines.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ATDefines.m; path = ../Common/ATDefines.m; sourceTree = "<group>"; };
+		EC6D273B1CF7B2A80007D1DB /* NSDictionary+MH.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+MH.h"; sourceTree = "<group>"; };
+		EC6D273C1CF7B2A80007D1DB /* NSDictionary+MH.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+MH.m"; sourceTree = "<group>"; };
+		EC6D274B1CF7B2DC0007D1DB /* bootstrap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = bootstrap.h; path = ../../../../Development/Github/AppTrack/Common/RocketBootstrap/bootstrap.h; sourceTree = "<group>"; };
+		EC6D274C1CF7B2DC0007D1DB /* rocketbootstrap_dynamic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = rocketbootstrap_dynamic.h; path = ../../../../Development/Github/AppTrack/Common/RocketBootstrap/rocketbootstrap_dynamic.h; sourceTree = "<group>"; };
+		EC6D274D1CF7B2DC0007D1DB /* rocketbootstrap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = rocketbootstrap.h; path = ../../../../Development/Github/AppTrack/Common/RocketBootstrap/rocketbootstrap.h; sourceTree = "<group>"; };
+		EC6D28451CF7B5F10007D1DB /* MHCoreDataStackManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MHCoreDataStackManager.h; sourceTree = "<group>"; };
+		EC6D28461CF7B5F10007D1DB /* MHCoreDataStackManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MHCoreDataStackManager.m; sourceTree = "<group>"; };
+		EC6D28471CF7B5F10007D1DB /* MHData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MHData.h; sourceTree = "<group>"; };
+		EC6D28481CF7B5F10007D1DB /* MHDataDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MHDataDefines.h; sourceTree = "<group>"; };
+		EC6D28491CF7B5F10007D1DB /* MHDataDefines.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MHDataDefines.m; sourceTree = "<group>"; };
+		EC6D28501CF7B5F10007D1DB /* NSEntityDescription+MH.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSEntityDescription+MH.h"; sourceTree = "<group>"; };
+		EC6D28511CF7B5F10007D1DB /* NSEntityDescription+MH.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSEntityDescription+MH.m"; sourceTree = "<group>"; };
+		EC6D28521CF7B5F10007D1DB /* NSManagedObject+MH.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSManagedObject+MH.h"; sourceTree = "<group>"; };
+		EC6D28531CF7B5F10007D1DB /* NSManagedObject+MH.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSManagedObject+MH.m"; sourceTree = "<group>"; };
+		EC6D28541CF7B5F10007D1DB /* NSManagedObjectContext+MH.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSManagedObjectContext+MH.h"; sourceTree = "<group>"; };
+		EC6D28551CF7B5F10007D1DB /* NSManagedObjectContext+MH.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSManagedObjectContext+MH.m"; sourceTree = "<group>"; };
+		EC6D28561CF7B5F10007D1DB /* NSManagedObjectModel+MH.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSManagedObjectModel+MH.h"; sourceTree = "<group>"; };
+		EC6D28571CF7B5F10007D1DB /* NSManagedObjectModel+MH.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSManagedObjectModel+MH.m"; sourceTree = "<group>"; };
+		EC6D28581CF7B5F10007D1DB /* NSPersistentStoreCoordinator+MH.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSPersistentStoreCoordinator+MH.h"; sourceTree = "<group>"; };
+		EC6D28591CF7B5F10007D1DB /* NSPersistentStoreCoordinator+MH.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSPersistentStoreCoordinator+MH.m"; sourceTree = "<group>"; };
+		EC6D28701CF7B64A0007D1DB /* CPDistributedMessagingCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPDistributedMessagingCenter.h; sourceTree = "<group>"; };
+		EC6D28721CF7B66A0007D1DB /* AppTrack_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppTrack_Prefix.pch; path = AppTrack/AppTrack_Prefix.pch; sourceTree = "<group>"; };
+		EC6D28751CF7B89B0007D1DB /* CydiaSubstrate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CydiaSubstrate.framework; sourceTree = "<group>"; };
+		EC6D28781CF7B8EB0007D1DB /* AppTrack.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AppTrack.xcdatamodel; sourceTree = "<group>"; };
+		EC79C67212E67BAE00F5E56B /* speed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = speed.png; sourceTree = "<group>"; };
+		EC79C67312E67BAE00F5E56B /* speed@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "speed@2x.png"; sourceTree = "<group>"; };
+		EC915C6C1C55B0DD0056DC06 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		EC915C961C55DD610056DC06 /* AppSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppSupport.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/PrivateFrameworks/AppSupport.framework; sourceTree = DEVELOPER_DIR; };
+		ECC980B70EE37C1C0027C8B1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		ECC9815F0EE391B60027C8B1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D2AAC0C505546C1D00DB518D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC915C971C55DD610056DC06 /* AppSupport.framework in Frameworks */,
+				EC915C6D1C55B0DD0056DC06 /* CoreData.framework in Frameworks */,
+				ECC980B90EE37C1C0027C8B1 /* Foundation.framework in Frameworks */,
+				ECC981600EE391B60027C8B1 /* UIKit.framework in Frameworks */,
+				EC6D28761CF7B89B0007D1DB /* CydiaSubstrate.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		034768DFFF38A50411DB9C8B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D2AAC0C705546C1D00DB518D /* AppTrack.dylib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0867D691FE84028FC02AAC07 /* MobileSubstrateSample */ = {
+			isa = PBXGroup;
+			children = (
+				EC6D270F1CF7B0790007D1DB /* readme.txt */,
+				08FB77AEFE84172EC02AAC07 /* AppTrack */,
+				32C88DFF0371C24200C91783 /* Other Sources */,
+				EC2148D312B1BC7C0028FA42 /* Resources */,
+				0867D69AFE84028FC02AAC07 /* External Frameworks and Libraries */,
+				034768DFFF38A50411DB9C8B /* Products */,
+			);
+			name = MobileSubstrateSample;
+			sourceTree = "<group>";
+		};
+		0867D69AFE84028FC02AAC07 /* External Frameworks and Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				EC915C961C55DD610056DC06 /* AppSupport.framework */,
+				EC915C6C1C55B0DD0056DC06 /* CoreData.framework */,
+				EC21324F12B43B2A007EADB8 /* SpringBoardServices.framework */,
+				EC21482812B1BAAD0028FA42 /* Preferences.framework */,
+				ECC9815F0EE391B60027C8B1 /* UIKit.framework */,
+				ECC980B70EE37C1C0027C8B1 /* Foundation.framework */,
+			);
+			name = "External Frameworks and Libraries";
+			sourceTree = "<group>";
+		};
+		08FB77AEFE84172EC02AAC07 /* AppTrack */ = {
+			isa = PBXGroup;
+			children = (
+				ECD0B2E714DBD32800CE3008 /* Common */,
+				EC915C8D1C55CA4D0056DC06 /* Model */,
+				EC6D27281CF7B1EF0007D1DB /* Tweak.mm */,
+				EC6D272A1CF7B1F70007D1DB /* ATSBManager.h */,
+				EC6D272B1CF7B1F70007D1DB /* ATSBManager.m */,
+				EC6D28771CF7B8EB0007D1DB /* AppTrack.xcdatamodeld */,
+			);
+			name = AppTrack;
+			sourceTree = "<group>";
+		};
+		32C88DFF0371C24200C91783 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				EC6D28721CF7B66A0007D1DB /* AppTrack_Prefix.pch */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		EC2148D312B1BC7C0028FA42 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				EC5AEC9312B1D0A100B929CE /* AppTrackSettings-Info.plist */,
+				EC25C82B12DF6B6D00927388 /* SleepFXSettings */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		EC25C82B12DF6B6D00927388 /* SleepFXSettings */ = {
+			isa = PBXGroup;
+			children = (
+				EC79C67212E67BAE00F5E56B /* speed.png */,
+				EC79C67312E67BAE00F5E56B /* speed@2x.png */,
+				EC25C82C12DF6B6D00927388 /* icon.png */,
+				EC25C82D12DF6B6D00927388 /* icon@2x.png */,
+				EC25C83012DF6B6D00927388 /* SleepFX.plist */,
+			);
+			path = SleepFXSettings;
+			sourceTree = "<group>";
+		};
+		EC6D27321CF7B2A80007D1DB /* MHFoundation */ = {
+			isa = PBXGroup;
+			children = (
+				EC6D273B1CF7B2A80007D1DB /* NSDictionary+MH.h */,
+				EC6D273C1CF7B2A80007D1DB /* NSDictionary+MH.m */,
+			);
+			name = MHFoundation;
+			path = ../Common/MHFoundation/MHFoundation;
+			sourceTree = "<group>";
+		};
+		EC6D28441CF7B5F10007D1DB /* MHData */ = {
+			isa = PBXGroup;
+			children = (
+				EC6D28451CF7B5F10007D1DB /* MHCoreDataStackManager.h */,
+				EC6D28461CF7B5F10007D1DB /* MHCoreDataStackManager.m */,
+				EC6D28471CF7B5F10007D1DB /* MHData.h */,
+				EC6D28481CF7B5F10007D1DB /* MHDataDefines.h */,
+				EC6D28491CF7B5F10007D1DB /* MHDataDefines.m */,
+				EC6D28501CF7B5F10007D1DB /* NSEntityDescription+MH.h */,
+				EC6D28511CF7B5F10007D1DB /* NSEntityDescription+MH.m */,
+				EC6D28521CF7B5F10007D1DB /* NSManagedObject+MH.h */,
+				EC6D28531CF7B5F10007D1DB /* NSManagedObject+MH.m */,
+				EC6D28541CF7B5F10007D1DB /* NSManagedObjectContext+MH.h */,
+				EC6D28551CF7B5F10007D1DB /* NSManagedObjectContext+MH.m */,
+				EC6D28561CF7B5F10007D1DB /* NSManagedObjectModel+MH.h */,
+				EC6D28571CF7B5F10007D1DB /* NSManagedObjectModel+MH.m */,
+				EC6D28581CF7B5F10007D1DB /* NSPersistentStoreCoordinator+MH.h */,
+				EC6D28591CF7B5F10007D1DB /* NSPersistentStoreCoordinator+MH.m */,
+			);
+			name = MHData;
+			path = AppTrack/MHData/MHData;
+			sourceTree = "<group>";
+		};
+		EC6D286F1CF7B64A0007D1DB /* MHAppSupport */ = {
+			isa = PBXGroup;
+			children = (
+				EC6D28701CF7B64A0007D1DB /* CPDistributedMessagingCenter.h */,
+			);
+			name = MHAppSupport;
+			path = ../Common/MHAppSupport/MHAppSupport;
+			sourceTree = "<group>";
+		};
+		EC6D28741CF7B89B0007D1DB /* MHCydiaSubstrate */ = {
+			isa = PBXGroup;
+			children = (
+				EC6D28751CF7B89B0007D1DB /* CydiaSubstrate.framework */,
+			);
+			name = MHCydiaSubstrate;
+			path = AppTrack/MHCydiaSubstrate/MHCydiaSubstrate;
+			sourceTree = "<group>";
+		};
+		EC915C8D1C55CA4D0056DC06 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EC6D27101CF7B1D60007D1DB /* ATSBApp.h */,
+				EC6D27111CF7B1D60007D1DB /* ATSBApp.m */,
+				EC6D27121CF7B1D60007D1DB /* ATSBApp+CoreDataProperties.h */,
+				EC6D27131CF7B1D60007D1DB /* ATSBApp+CoreDataProperties.m */,
+				EC6D27141CF7B1D60007D1DB /* ATSBLifecycle.h */,
+				EC6D27151CF7B1D60007D1DB /* ATSBLifecycle.m */,
+				EC6D27161CF7B1D60007D1DB /* ATSBLifecycle+CoreDataProperties.h */,
+				EC6D27171CF7B1D60007D1DB /* ATSBLifecycle+CoreDataProperties.m */,
+				EC6D27181CF7B1D60007D1DB /* ATSBUsage.h */,
+				EC6D27191CF7B1D60007D1DB /* ATSBUsage.m */,
+				EC6D271A1CF7B1D60007D1DB /* ATSBUsage+CoreDataProperties.h */,
+				EC6D271B1CF7B1D60007D1DB /* ATSBUsage+CoreDataProperties.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		EC915C911C55D9770056DC06 /* RocketBootstrap */ = {
+			isa = PBXGroup;
+			children = (
+				EC6D274B1CF7B2DC0007D1DB /* bootstrap.h */,
+				EC6D274C1CF7B2DC0007D1DB /* rocketbootstrap_dynamic.h */,
+				EC6D274D1CF7B2DC0007D1DB /* rocketbootstrap.h */,
+			);
+			name = RocketBootstrap;
+			path = ../../../../dl/iphone/shared/RocketBootstrap;
+			sourceTree = "<group>";
+		};
+		ECD0B2E714DBD32800CE3008 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				EC6D28741CF7B89B0007D1DB /* MHCydiaSubstrate */,
+				EC6D286F1CF7B64A0007D1DB /* MHAppSupport */,
+				EC6D27321CF7B2A80007D1DB /* MHFoundation */,
+				EC6D272E1CF7B2100007D1DB /* ATDefines.h */,
+				EC6D272F1CF7B2100007D1DB /* ATDefines.m */,
+				EC6D28441CF7B5F10007D1DB /* MHData */,
+				EC915C911C55D9770056DC06 /* RocketBootstrap */,
+			);
+			name = Common;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		D2AAC0C305546C1D00DB518D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC6D27301CF7B2100007D1DB /* ATDefines.h in Headers */,
+				EC6D274F1CF7B2DC0007D1DB /* rocketbootstrap_dynamic.h in Headers */,
+				EC6D27261CF7B1D60007D1DB /* ATSBUsage+CoreDataProperties.h in Headers */,
+				EC6D285C1CF7B5F10007D1DB /* MHData.h in Headers */,
+				EC6D272C1CF7B1F70007D1DB /* ATSBManager.h in Headers */,
+				EC6D28671CF7B5F10007D1DB /* NSManagedObject+MH.h in Headers */,
+				EC6D28651CF7B5F10007D1DB /* NSEntityDescription+MH.h in Headers */,
+				EC6D28711CF7B64A0007D1DB /* CPDistributedMessagingCenter.h in Headers */,
+				EC6D286B1CF7B5F10007D1DB /* NSManagedObjectModel+MH.h in Headers */,
+				EC6D27241CF7B1D60007D1DB /* ATSBUsage.h in Headers */,
+				EC6D27201CF7B1D60007D1DB /* ATSBLifecycle.h in Headers */,
+				EC6D28691CF7B5F10007D1DB /* NSManagedObjectContext+MH.h in Headers */,
+				EC6D286D1CF7B5F10007D1DB /* NSPersistentStoreCoordinator+MH.h in Headers */,
+				EC6D285D1CF7B5F10007D1DB /* MHDataDefines.h in Headers */,
+				EC6D271E1CF7B1D60007D1DB /* ATSBApp+CoreDataProperties.h in Headers */,
+				EC6D27471CF7B2A80007D1DB /* NSDictionary+MH.h in Headers */,
+				EC6D28731CF7B66A0007D1DB /* AppTrack_Prefix.pch in Headers */,
+				EC6D271C1CF7B1D60007D1DB /* ATSBApp.h in Headers */,
+				EC6D27501CF7B2DC0007D1DB /* rocketbootstrap.h in Headers */,
+				EC6D27221CF7B1D60007D1DB /* ATSBLifecycle+CoreDataProperties.h in Headers */,
+				EC6D285A1CF7B5F10007D1DB /* MHCoreDataStackManager.h in Headers */,
+				EC6D274E1CF7B2DC0007D1DB /* bootstrap.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		D2AAC0C605546C1D00DB518D /* AppTrack */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DEB917D08733D990010E9CD /* Build configuration list for PBXNativeTarget "AppTrack" */;
+			buildPhases = (
+				D2AAC0C305546C1D00DB518D /* Headers */,
+				D2AAC0C405546C1D00DB518D /* Sources */,
+				D2AAC0C505546C1D00DB518D /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AppTrack;
+			productName = MobileSubstrateSample;
+			productReference = D2AAC0C705546C1D00DB518D /* AppTrack.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0867D690FE84028FC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+			};
+			buildConfigurationList = 1DEB918108733D990010E9CD /* Build configuration list for PBXProject "AppTrack" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+				en,
+			);
+			mainGroup = 0867D691FE84028FC02AAC07 /* MobileSubstrateSample */;
+			productRefGroup = 034768DFFF38A50411DB9C8B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D2AAC0C605546C1D00DB518D /* AppTrack */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D2AAC0C405546C1D00DB518D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC6D286A1CF7B5F10007D1DB /* NSManagedObjectContext+MH.m in Sources */,
+				EC6D27271CF7B1D60007D1DB /* ATSBUsage+CoreDataProperties.m in Sources */,
+				EC6D272D1CF7B1F70007D1DB /* ATSBManager.m in Sources */,
+				EC6D27251CF7B1D60007D1DB /* ATSBUsage.m in Sources */,
+				EC6D27211CF7B1D60007D1DB /* ATSBLifecycle.m in Sources */,
+				EC6D28791CF7B8EB0007D1DB /* AppTrack.xcdatamodeld in Sources */,
+				EC6D28661CF7B5F10007D1DB /* NSEntityDescription+MH.m in Sources */,
+				EC6D286C1CF7B5F10007D1DB /* NSManagedObjectModel+MH.m in Sources */,
+				EC6D27231CF7B1D60007D1DB /* ATSBLifecycle+CoreDataProperties.m in Sources */,
+				EC6D285B1CF7B5F10007D1DB /* MHCoreDataStackManager.m in Sources */,
+				EC6D286E1CF7B5F10007D1DB /* NSPersistentStoreCoordinator+MH.m in Sources */,
+				EC6D271F1CF7B1D60007D1DB /* ATSBApp+CoreDataProperties.m in Sources */,
+				EC6D28681CF7B5F10007D1DB /* NSManagedObject+MH.m in Sources */,
+				EC6D27311CF7B2100007D1DB /* ATDefines.m in Sources */,
+				EC6D271D1CF7B1D60007D1DB /* ATSBApp.m in Sources */,
+				EC6D285E1CF7B5F10007D1DB /* MHDataDefines.m in Sources */,
+				EC6D27481CF7B2A80007D1DB /* NSDictionary+MH.m in Sources */,
+				EC6D27291CF7B1EF0007D1DB /* Tweak.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB917E08733D990010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SDKROOT)$(SYSTEM_LIBRARY_DIR)/PrivateFrameworks\"",
+					"$(PROJECT_DIR)/AppTrack/MHCydiaSubstrate/MHCydiaSubstrate",
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = AppTrack/AppTrack_Prefix.pch;
+				HEADER_SEARCH_PATHS = AppTrack/MHData;
+				INFOPLIST_FILE = "AppTrackSettings-Info.plist";
+				INSTALL_PATH = /usr/local/lib;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)",
+					"\\\"$(SRCROOT)/build/Debug-iphoneos\\\"",
+				);
+				PRODUCT_NAME = AppTrack;
+			};
+			name = Debug;
+		};
+		1DEB917F08733D990010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SDKROOT)$(SYSTEM_LIBRARY_DIR)/PrivateFrameworks\"",
+					"$(PROJECT_DIR)/AppTrack/MHCydiaSubstrate/MHCydiaSubstrate",
+				);
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = AppTrack/AppTrack_Prefix.pch;
+				HEADER_SEARCH_PATHS = AppTrack/MHData;
+				INFOPLIST_FILE = "AppTrackSettings-Info.plist";
+				INSTALL_PATH = /usr/local/lib;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)",
+					"\\\"$(SRCROOT)/build/Debug-iphoneos\\\"",
+				);
+				PRODUCT_NAME = AppTrack;
+			};
+			name = Release;
+		};
+		1DEB918208733D990010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Malcolm Hall (FBNY5F2828)";
+				ENABLE_BITCODE = NO;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "DEBUG=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "PluggedInSettings-Info.plist";
+				INIT_ROUTINE = _TweakInitialize;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1DEB918308733D990010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Malcolm Hall (FBNY5F2828)";
+				ENABLE_BITCODE = NO;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "PluggedInSettings-Info.plist";
+				INIT_ROUTINE = _TweakInitialize;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB917D08733D990010E9CD /* Build configuration list for PBXNativeTarget "AppTrack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB917E08733D990010E9CD /* Debug */,
+				1DEB917F08733D990010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DEB918108733D990010E9CD /* Build configuration list for PBXProject "AppTrack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB918208733D990010E9CD /* Debug */,
+				1DEB918308733D990010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		EC6D28771CF7B8EB0007D1DB /* AppTrack.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				EC6D28781CF7B8EB0007D1DB /* AppTrack.xcdatamodel */,
+			);
+			currentVersion = EC6D28781CF7B8EB0007D1DB /* AppTrack.xcdatamodel */;
+			name = AppTrack.xcdatamodeld;
+			path = AppTrack/AppTrack.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 0867D690FE84028FC02AAC07 /* Project object */;
+}

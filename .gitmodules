@@ -1,0 +1,18 @@
+[submodule "Common/MHAppSupport"]
+	path = Common/MHAppSupport
+	url = https://github.com/malhal/MHAppSupport.git
+[submodule "Common/RocketBootstrap"]
+	path = Common/RocketBootstrap
+	url = https://github.com/rpetrich/RocketBootstrap.git
+[submodule "Common/MHFoundation"]
+	path = Common/MHFoundation
+	url = https://github.com/malhal/MHFoundation.git
+[submodule "Development/AppTrackClient/PlainDefaultImage"]
+	path = Development/AppTrackClient/PlainDefaultImage
+	url = https://github.com/malhal/PlainDefaultImage.git
+[submodule "Tweak/AppTrack/MHData"]
+	path = Tweak/AppTrack/MHData
+	url = https://github.com/malhal/MHData.git
+[submodule "Tweak/AppTrack/MHCydiaSubstrate"]
+	path = Tweak/AppTrack/MHCydiaSubstrate
+	url = https://github.com/malhal/MHCydiaSubstrate.git
