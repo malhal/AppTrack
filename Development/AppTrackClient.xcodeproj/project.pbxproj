@@ -150,7 +150,6 @@
 				EC915CAB1C55DDD30056DC06 /* MasterViewController.m */,
 				EC915CAD1C55DDD30056DC06 /* DetailViewController.h */,
 				EC915CAE1C55DDD30056DC06 /* DetailViewController.m */,
-				EC915CD51C56C0DC0056DC06 /* shared */,
 				EC915CB01C55DDD30056DC06 /* Main.storyboard */,
 				EC915CB31C55DDD30056DC06 /* Assets.xcassets */,
 				EC915CB51C55DDD30056DC06 /* LaunchScreen.storyboard */,
@@ -166,13 +165,6 @@
 			);
 			name = "Supporting Files";
 			path = AppTrackClient;
-			sourceTree = "<group>";
-		};
-		EC915CD51C56C0DC0056DC06 /* shared */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = shared;
 			sourceTree = "<group>";
 		};
 		EC915D361C56EA610056DC06 /* Frameworks */ = {
