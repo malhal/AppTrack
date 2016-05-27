@@ -1,9 +1,6 @@
 [submodule "Common/MHAppSupport"]
 	path = Common/MHAppSupport
 	url = https://github.com/malhal/MHAppSupport.git
-[submodule "Common/RocketBootstrap"]
-	path = Common/RocketBootstrap
-	url = https://github.com/rpetrich/RocketBootstrap.git
 [submodule "Common/MHFoundation"]
 	path = Common/MHFoundation
 	url = https://github.com/malhal/MHFoundation.git
@@ -16,3 +13,6 @@
 [submodule "Tweak/AppTrack/MHCydiaSubstrate"]
 	path = Tweak/AppTrack/MHCydiaSubstrate
 	url = https://github.com/malhal/MHCydiaSubstrate.git
+[submodule "Common/RocketBootstrap"]
+	path = Common/RocketBootstrap
+	url = https://github.com/rpetrich/RocketBootstrap.git
