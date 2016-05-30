@@ -6,8 +6,8 @@
 //
 //
 
-#import "MHCoreDataStackManager.h"
+#import <MHData/MHCoreDataStackManager.h>
 
-@interface ATSBManager : MHCoreDataStackManager
+@interface ATSBManager : MHDATA_ADD_PREFIX(MHCoreDataStackManager)
 
 @end

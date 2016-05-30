@@ -61,7 +61,7 @@
     }
     
     __block NSError* error;
-    NSManagedObjectContext* context = [self.mainContext MH_createPrivateQueueContextWithError:&error];
+    NSManagedObjectContext* context = [self.mainContext mh_createPrivateQueueContextWithError:&error];
     if(!context){
         NSLog(@"error creating private context %@", error);
         return [self errorReplyWithError:error];

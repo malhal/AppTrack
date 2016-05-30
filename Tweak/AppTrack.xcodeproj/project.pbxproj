@@ -48,6 +48,9 @@
 		EC6D28731CF7B66A0007D1DB /* AppTrack_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = EC6D28721CF7B66A0007D1DB /* AppTrack_Prefix.pch */; };
 		EC6D28761CF7B89B0007D1DB /* CydiaSubstrate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC6D28751CF7B89B0007D1DB /* CydiaSubstrate.framework */; };
 		EC6D28791CF7B8EB0007D1DB /* AppTrack.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EC6D28771CF7B8EB0007D1DB /* AppTrack.xcdatamodeld */; };
+		EC6D28D11CFCD0850007D1DB /* MHFoundation.h in Headers */ = {isa = PBXBuildFile; fileRef = EC6D28CE1CFCD0850007D1DB /* MHFoundation.h */; };
+		EC6D28D21CFCD0850007D1DB /* MHFoundationDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = EC6D28CF1CFCD0850007D1DB /* MHFoundationDefines.h */; };
+		EC6D28D31CFCD0850007D1DB /* MHFoundationDefines.m in Sources */ = {isa = PBXBuildFile; fileRef = EC6D28D01CFCD0850007D1DB /* MHFoundationDefines.m */; };
 		EC915C6D1C55B0DD0056DC06 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC915C6C1C55B0DD0056DC06 /* CoreData.framework */; };
 		EC915C971C55DD610056DC06 /* AppSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC915C961C55DD610056DC06 /* AppSupport.framework */; };
 		ECC980B90EE37C1C0027C8B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECC980B70EE37C1C0027C8B1 /* Foundation.framework */; };
@@ -104,6 +107,9 @@
 		EC6D28721CF7B66A0007D1DB /* AppTrack_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppTrack_Prefix.pch; path = AppTrack/AppTrack_Prefix.pch; sourceTree = "<group>"; };
 		EC6D28751CF7B89B0007D1DB /* CydiaSubstrate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CydiaSubstrate.framework; sourceTree = "<group>"; };
 		EC6D28781CF7B8EB0007D1DB /* AppTrack.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AppTrack.xcdatamodel; sourceTree = "<group>"; };
+		EC6D28CE1CFCD0850007D1DB /* MHFoundation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MHFoundation.h; sourceTree = "<group>"; };
+		EC6D28CF1CFCD0850007D1DB /* MHFoundationDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MHFoundationDefines.h; sourceTree = "<group>"; };
+		EC6D28D01CFCD0850007D1DB /* MHFoundationDefines.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MHFoundationDefines.m; sourceTree = "<group>"; };
 		EC79C67212E67BAE00F5E56B /* speed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = speed.png; sourceTree = "<group>"; };
 		EC79C67312E67BAE00F5E56B /* speed@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "speed@2x.png"; sourceTree = "<group>"; };
 		EC915C6C1C55B0DD0056DC06 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
@@ -207,6 +213,9 @@
 		EC6D27321CF7B2A80007D1DB /* MHFoundation */ = {
 			isa = PBXGroup;
 			children = (
+				EC6D28CE1CFCD0850007D1DB /* MHFoundation.h */,
+				EC6D28CF1CFCD0850007D1DB /* MHFoundationDefines.h */,
+				EC6D28D01CFCD0850007D1DB /* MHFoundationDefines.m */,
 				EC6D273B1CF7B2A80007D1DB /* NSDictionary+MH.h */,
 				EC6D273C1CF7B2A80007D1DB /* NSDictionary+MH.m */,
 			);
@@ -322,10 +331,12 @@
 				EC6D285D1CF7B5F10007D1DB /* MHDataDefines.h in Headers */,
 				EC6D271E1CF7B1D60007D1DB /* ATSBApp+CoreDataProperties.h in Headers */,
 				EC6D27471CF7B2A80007D1DB /* NSDictionary+MH.h in Headers */,
+				EC6D28D11CFCD0850007D1DB /* MHFoundation.h in Headers */,
 				EC6D28731CF7B66A0007D1DB /* AppTrack_Prefix.pch in Headers */,
 				EC6D271C1CF7B1D60007D1DB /* ATSBApp.h in Headers */,
 				EC6D27501CF7B2DC0007D1DB /* rocketbootstrap.h in Headers */,
 				EC6D27221CF7B1D60007D1DB /* ATSBLifecycle+CoreDataProperties.h in Headers */,
+				EC6D28D21CFCD0850007D1DB /* MHFoundationDefines.h in Headers */,
 				EC6D285A1CF7B5F10007D1DB /* MHCoreDataStackManager.h in Headers */,
 				EC6D274E1CF7B2DC0007D1DB /* bootstrap.h in Headers */,
 			);
@@ -386,6 +397,7 @@
 			files = (
 				EC6D286A1CF7B5F10007D1DB /* NSManagedObjectContext+MH.m in Sources */,
 				EC6D27271CF7B1D60007D1DB /* ATSBUsage+CoreDataProperties.m in Sources */,
+				EC6D28D31CFCD0850007D1DB /* MHFoundationDefines.m in Sources */,
 				EC6D272D1CF7B1F70007D1DB /* ATSBManager.m in Sources */,
 				EC6D27251CF7B1D60007D1DB /* ATSBUsage.m in Sources */,
 				EC6D27211CF7B1D60007D1DB /* ATSBLifecycle.m in Sources */,
@@ -426,7 +438,10 @@
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = AppTrack/AppTrack_Prefix.pch;
-				HEADER_SEARCH_PATHS = AppTrack/MHData;
+				HEADER_SEARCH_PATHS = (
+					AppTrack/MHData,
+					../Common/MHFoundation,
+				);
 				INFOPLIST_FILE = "AppTrackSettings-Info.plist";
 				INSTALL_PATH = /usr/local/lib;
 				LIBRARY_SEARCH_PATHS = (
@@ -453,7 +468,10 @@
 				GCC_MODEL_TUNING = G5;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = AppTrack/AppTrack_Prefix.pch;
-				HEADER_SEARCH_PATHS = AppTrack/MHData;
+				HEADER_SEARCH_PATHS = (
+					AppTrack/MHData,
+					../Common/MHFoundation,
+				);
 				INFOPLIST_FILE = "AppTrackSettings-Info.plist";
 				INSTALL_PATH = /usr/local/lib;
 				LIBRARY_SEARCH_PATHS = (

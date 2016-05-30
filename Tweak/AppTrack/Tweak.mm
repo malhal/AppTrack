@@ -183,12 +183,12 @@ static void replaced_SBApplicationController_sendInstalledAppsDidChangeNotificat
         NSDictionary* dict = @{@"bundleIdentifier" : bundleIdentifier,
                                @"bundleVersion" : bundleVersion};
         BOOL inserted;
-        ATSBApp* app = (ATSBApp*)[c MH_fetchOrInsertObjectWithEntityName:[ATSBApp entityName] dictionary:dict inserted:&inserted error:error];
+        ATSBApp* app = (ATSBApp*)[c mh_fetchOrInsertObjectWithEntityName:[ATSBApp entityName] dictionary:dict inserted:&inserted error:error];
         if(!app){
             NSLog(@"error fetching/inserting app %@", *error);
             return NO;
         }
-        ATSBLifecycle* lifecycle = (ATSBLifecycle*)[c MH_insertNewObjectForEntityName:[ATSBLifecycle entityName]];
+        ATSBLifecycle* lifecycle = (ATSBLifecycle*)[c mh_insertNewObjectForEntityName:[ATSBLifecycle entityName]];
         lifecycle.app = app;
         lifecycle.date = date;
         lifecycle.changeType = changeType;
@@ -297,9 +297,9 @@ static void replaced_SpringBoard_frontDisplayDidChange$(SpringBoard* self, SEL s
                                @"bundleVersion" : prevBundleVersion};
         BOOL inserted;
         NSError* error;
-        ATSBApp* app = (ATSBApp*)[c MH_fetchOrInsertObjectWithEntityName:[ATSBApp entityName] dictionary:dict inserted:&inserted error:&error];
+        ATSBApp* app = (ATSBApp*)[c mh_fetchOrInsertObjectWithEntityName:[ATSBApp entityName] dictionary:dict inserted:&inserted error:&error];
         if(app){
-            ATSBUsage* track = (ATSBUsage*)[c MH_insertNewObjectForEntityName:[ATSBUsage entityName]];
+            ATSBUsage* track = (ATSBUsage*)[c mh_insertNewObjectForEntityName:[ATSBUsage entityName]];
             track.app = app;
             track.startDate = startDate;
             // set how long the app was used.
