@@ -1,9 +1,6 @@
 [submodule "Common/MHAppSupport"]
 	path = Common/MHAppSupport
 	url = https://github.com/malhal/MHAppSupport.git
-[submodule "Common/MHFoundation"]
-	path = Common/MHFoundation
-	url = https://github.com/malhal/MHFoundation.git
 [submodule "Development/AppTrackClient/PlainDefaultImage"]
 	path = Development/AppTrackClient/PlainDefaultImage
 	url = https://github.com/malhal/PlainDefaultImage.git
