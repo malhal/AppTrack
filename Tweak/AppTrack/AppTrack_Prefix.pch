@@ -20,5 +20,5 @@ UIKIT_EXTERN CGImageRef UICreateScreenImage();
     #define kCFCoreFoundationVersionNumber_iOS_7_0 847.20
 #endif
 
-#define MHDATA_PREFIX_TO_ADD AppTrack
-#define fa AppTrack
+#define MHDATA_PREFIX_TO_ADD AT
+#define MHFOUNDATION_PREFIX_TO_ADD AT

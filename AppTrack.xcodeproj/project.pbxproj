@@ -7,13 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EC615D341CFE427E00CD0045 /* bootstrap.h in Headers */ = {isa = PBXBuildFile; fileRef = EC615D311CFE427E00CD0045 /* bootstrap.h */; };
+		EC615D351CFE427E00CD0045 /* rocketbootstrap_dynamic.h in Headers */ = {isa = PBXBuildFile; fileRef = EC615D321CFE427E00CD0045 /* rocketbootstrap_dynamic.h */; };
+		EC615D361CFE427E00CD0045 /* rocketbootstrap.h in Headers */ = {isa = PBXBuildFile; fileRef = EC615D331CFE427E00CD0045 /* rocketbootstrap.h */; };
+		EC615D3A1CFE429F00CD0045 /* MHFoundation.h in Headers */ = {isa = PBXBuildFile; fileRef = EC615D371CFE429F00CD0045 /* MHFoundation.h */; };
+		EC615D3B1CFE429F00CD0045 /* MHFoundationDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = EC615D381CFE429F00CD0045 /* MHFoundationDefines.h */; };
+		EC615D3C1CFE429F00CD0045 /* MHFoundationDefines.m in Sources */ = {isa = PBXBuildFile; fileRef = EC615D391CFE429F00CD0045 /* MHFoundationDefines.m */; };
 		EC6D26EB1CF74A8C0007D1DB /* ATDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = EC6D26E91CF74A8C0007D1DB /* ATDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EC6D26EC1CF74A8C0007D1DB /* ATDefines.m in Sources */ = {isa = PBXBuildFile; fileRef = EC6D26EA1CF74A8C0007D1DB /* ATDefines.m */; };
 		EC6D28931CF7BEF80007D1DB /* NSDictionary+MH.h in Headers */ = {isa = PBXBuildFile; fileRef = EC6D28871CF7BEF80007D1DB /* NSDictionary+MH.h */; };
 		EC6D28941CF7BEF80007D1DB /* NSDictionary+MH.m in Sources */ = {isa = PBXBuildFile; fileRef = EC6D28881CF7BEF80007D1DB /* NSDictionary+MH.m */; };
-		EC6D289A1CF7BF0C0007D1DB /* bootstrap.h in Headers */ = {isa = PBXBuildFile; fileRef = EC6D28971CF7BF0C0007D1DB /* bootstrap.h */; };
-		EC6D289B1CF7BF0C0007D1DB /* rocketbootstrap_dynamic.h in Headers */ = {isa = PBXBuildFile; fileRef = EC6D28981CF7BF0C0007D1DB /* rocketbootstrap_dynamic.h */; };
-		EC6D289C1CF7BF0C0007D1DB /* rocketbootstrap.h in Headers */ = {isa = PBXBuildFile; fileRef = EC6D28991CF7BF0C0007D1DB /* rocketbootstrap.h */; };
 		EC6D28A01CF7BF780007D1DB /* CPDistributedMessagingCenter.h in Headers */ = {isa = PBXBuildFile; fileRef = EC6D289F1CF7BF780007D1DB /* CPDistributedMessagingCenter.h */; };
 		EC75883B1C582F0100515125 /* ATApp.h in Headers */ = {isa = PBXBuildFile; fileRef = EC7588391C582F0100515125 /* ATApp.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EC75883C1C582F0100515125 /* ATApp.m in Sources */ = {isa = PBXBuildFile; fileRef = EC75883A1C582F0100515125 /* ATApp.m */; };
@@ -34,13 +37,16 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EC615D311CFE427E00CD0045 /* bootstrap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bootstrap.h; sourceTree = "<group>"; };
+		EC615D321CFE427E00CD0045 /* rocketbootstrap_dynamic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rocketbootstrap_dynamic.h; sourceTree = "<group>"; };
+		EC615D331CFE427E00CD0045 /* rocketbootstrap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rocketbootstrap.h; sourceTree = "<group>"; };
+		EC615D371CFE429F00CD0045 /* MHFoundation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MHFoundation.h; sourceTree = "<group>"; };
+		EC615D381CFE429F00CD0045 /* MHFoundationDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MHFoundationDefines.h; sourceTree = "<group>"; };
+		EC615D391CFE429F00CD0045 /* MHFoundationDefines.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MHFoundationDefines.m; sourceTree = "<group>"; };
 		EC6D26E91CF74A8C0007D1DB /* ATDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATDefines.h; sourceTree = "<group>"; };
 		EC6D26EA1CF74A8C0007D1DB /* ATDefines.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATDefines.m; sourceTree = "<group>"; };
 		EC6D28871CF7BEF80007D1DB /* NSDictionary+MH.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+MH.h"; sourceTree = "<group>"; };
 		EC6D28881CF7BEF80007D1DB /* NSDictionary+MH.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+MH.m"; sourceTree = "<group>"; };
-		EC6D28971CF7BF0C0007D1DB /* bootstrap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = bootstrap.h; path = Common/RocketBootstrap/bootstrap.h; sourceTree = SOURCE_ROOT; };
-		EC6D28981CF7BF0C0007D1DB /* rocketbootstrap_dynamic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = rocketbootstrap_dynamic.h; path = Common/RocketBootstrap/rocketbootstrap_dynamic.h; sourceTree = SOURCE_ROOT; };
-		EC6D28991CF7BF0C0007D1DB /* rocketbootstrap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = rocketbootstrap.h; path = Common/RocketBootstrap/rocketbootstrap.h; sourceTree = SOURCE_ROOT; };
 		EC6D289F1CF7BF780007D1DB /* CPDistributedMessagingCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPDistributedMessagingCenter.h; sourceTree = "<group>"; };
 		EC7588391C582F0100515125 /* ATApp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATApp.h; sourceTree = "<group>"; };
 		EC75883A1C582F0100515125 /* ATApp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATApp.m; sourceTree = "<group>"; };
@@ -93,21 +99,25 @@
 		EC6D287E1CF7BEF80007D1DB /* MHFoundation */ = {
 			isa = PBXGroup;
 			children = (
+				EC615D371CFE429F00CD0045 /* MHFoundation.h */,
+				EC615D381CFE429F00CD0045 /* MHFoundationDefines.h */,
+				EC615D391CFE429F00CD0045 /* MHFoundationDefines.m */,
 				EC6D28871CF7BEF80007D1DB /* NSDictionary+MH.h */,
 				EC6D28881CF7BEF80007D1DB /* NSDictionary+MH.m */,
 			);
 			name = MHFoundation;
-			path = Common/MHFoundation/MHFoundation;
+			path = Dependencies/MHFoundation/MHFoundation;
 			sourceTree = SOURCE_ROOT;
 		};
 		EC6D289D1CF7BF2E0007D1DB /* RocketBootstrap */ = {
 			isa = PBXGroup;
 			children = (
-				EC6D28971CF7BF0C0007D1DB /* bootstrap.h */,
-				EC6D28981CF7BF0C0007D1DB /* rocketbootstrap_dynamic.h */,
-				EC6D28991CF7BF0C0007D1DB /* rocketbootstrap.h */,
+				EC615D311CFE427E00CD0045 /* bootstrap.h */,
+				EC615D321CFE427E00CD0045 /* rocketbootstrap_dynamic.h */,
+				EC615D331CFE427E00CD0045 /* rocketbootstrap.h */,
 			);
-			path = RocketBootstrap;
+			name = RocketBootstrap;
+			path = ../Dependencies/RocketBootstrap;
 			sourceTree = "<group>";
 		};
 		EC6D289E1CF7BF780007D1DB /* MHAppSupport */ = {
@@ -116,7 +126,7 @@
 				EC6D289F1CF7BF780007D1DB /* CPDistributedMessagingCenter.h */,
 			);
 			name = MHAppSupport;
-			path = Common/MHAppSupport/MHAppSupport;
+			path = Dependencies/MHAppSupport/MHAppSupport;
 			sourceTree = SOURCE_ROOT;
 		};
 		EC915CEB1C56E3510056DC06 = {
@@ -181,12 +191,14 @@
 			files = (
 				EC915D0E1C56E3770056DC06 /* ATObject.h in Headers */,
 				EC915D121C56E3770056DC06 /* ATQuery.h in Headers */,
-				EC6D289C1CF7BF0C0007D1DB /* rocketbootstrap.h in Headers */,
 				EC6D28A01CF7BF780007D1DB /* CPDistributedMessagingCenter.h in Headers */,
+				EC615D3A1CFE429F00CD0045 /* MHFoundation.h in Headers */,
+				EC615D341CFE427E00CD0045 /* bootstrap.h in Headers */,
+				EC615D3B1CFE429F00CD0045 /* MHFoundationDefines.h in Headers */,
 				EC915D141C56E3770056DC06 /* ATStore.h in Headers */,
-				EC6D289A1CF7BF0C0007D1DB /* bootstrap.h in Headers */,
+				EC615D361CFE427E00CD0045 /* rocketbootstrap.h in Headers */,
+				EC615D351CFE427E00CD0045 /* rocketbootstrap_dynamic.h in Headers */,
 				EC915D161C56E3770056DC06 /* ATUsage.h in Headers */,
-				EC6D289B1CF7BF0C0007D1DB /* rocketbootstrap_dynamic.h in Headers */,
 				EC6D26EB1CF74A8C0007D1DB /* ATDefines.h in Headers */,
 				EC915D101C56E3770056DC06 /* ATObjectType.h in Headers */,
 				EC6D28931CF7BEF80007D1DB /* NSDictionary+MH.h in Headers */,
@@ -263,6 +275,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC615D3C1CFE429F00CD0045 /* MHFoundationDefines.m in Sources */,
 				EC75883C1C582F0100515125 /* ATApp.m in Sources */,
 				EC6D28941CF7BEF80007D1DB /* NSDictionary+MH.m in Sources */,
 				EC915D171C56E3770056DC06 /* ATUsage.m in Sources */,
@@ -372,6 +385,7 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				FRAMEWORK_SEARCH_PATHS = "\"$(SDKROOT)$(SYSTEM_LIBRARY_DIR)/PrivateFrameworks\"";
+				HEADER_SEARCH_PATHS = Dependencies/MHFoundation;
 				INFOPLIST_FILE = AppTrack/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -388,6 +402,7 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = /Library/Frameworks;
 				FRAMEWORK_SEARCH_PATHS = "\"$(SDKROOT)$(SYSTEM_LIBRARY_DIR)/PrivateFrameworks\"";
+				HEADER_SEARCH_PATHS = Dependencies/MHFoundation;
 				INFOPLIST_FILE = AppTrack/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
