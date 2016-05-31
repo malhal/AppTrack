@@ -13,3 +13,6 @@
 [submodule "Common/RocketBootstrap"]
 	path = Common/RocketBootstrap
 	url = https://github.com/rpetrich/RocketBootstrap.git
+[submodule "Dependencies/MHFoundation"]
+	path = Dependencies/MHFoundation
+	url = https://github.com/malhal/MHFoundation.git

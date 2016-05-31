@@ -21,4 +21,4 @@ UIKIT_EXTERN CGImageRef UICreateScreenImage();
 #endif
 
 #define MHDATA_PREFIX_TO_ADD AppTrack
-#define MHFOUNDATION_PREFIX_TO_ADD AppTrack
+#define fa AppTrack
