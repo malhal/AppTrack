@@ -51,13 +51,13 @@
 		EC6D27311CF7B2100007D1DB /* ATDefines.m in Sources */ = {isa = PBXBuildFile; fileRef = EC6D272F1CF7B2100007D1DB /* ATDefines.m */; };
 		EC6D28731CF7B66A0007D1DB /* AppTrack_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = EC6D28721CF7B66A0007D1DB /* AppTrack_Prefix.pch */; };
 		EC6D28791CF7B8EB0007D1DB /* AppTrack.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EC6D28771CF7B8EB0007D1DB /* AppTrack.xcdatamodeld */; };
-		EC6D28E61CFE35B90007D1DB /* MHFoundation.h in Headers */ = {isa = PBXBuildFile; fileRef = EC6D28D71CFE35B90007D1DB /* MHFoundation.h */; };
-		EC6D28E71CFE35B90007D1DB /* MHFoundationDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = EC6D28D81CFE35B90007D1DB /* MHFoundationDefines.h */; };
-		EC6D28E81CFE35B90007D1DB /* MHFoundationDefines.m in Sources */ = {isa = PBXBuildFile; fileRef = EC6D28D91CFE35B90007D1DB /* MHFoundationDefines.m */; };
-		EC6D28EF1CFE35B90007D1DB /* NSDictionary+MH.h in Headers */ = {isa = PBXBuildFile; fileRef = EC6D28E01CFE35B90007D1DB /* NSDictionary+MH.h */; };
-		EC6D28F01CFE35B90007D1DB /* NSDictionary+MH.m in Sources */ = {isa = PBXBuildFile; fileRef = EC6D28E11CFE35B90007D1DB /* NSDictionary+MH.m */; };
 		EC915C6D1C55B0DD0056DC06 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC915C6C1C55B0DD0056DC06 /* CoreData.framework */; };
 		EC915C971C55DD610056DC06 /* AppSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC915C961C55DD610056DC06 /* AppSupport.framework */; };
+		ECA79A001D01F676005AB8F7 /* MALFoundation.h in Headers */ = {isa = PBXBuildFile; fileRef = ECA799F11D01F676005AB8F7 /* MALFoundation.h */; };
+		ECA79A011D01F676005AB8F7 /* MALFoundationDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = ECA799F21D01F676005AB8F7 /* MALFoundationDefines.h */; };
+		ECA79A021D01F676005AB8F7 /* MALFoundationDefines.m in Sources */ = {isa = PBXBuildFile; fileRef = ECA799F31D01F676005AB8F7 /* MALFoundationDefines.m */; };
+		ECA79A091D01F676005AB8F7 /* NSDictionary+MAL.h in Headers */ = {isa = PBXBuildFile; fileRef = ECA799FA1D01F676005AB8F7 /* NSDictionary+MAL.h */; };
+		ECA79A0A1D01F676005AB8F7 /* NSDictionary+MAL.m in Sources */ = {isa = PBXBuildFile; fileRef = ECA799FB1D01F676005AB8F7 /* NSDictionary+MAL.m */; };
 		ECC980B90EE37C1C0027C8B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECC980B70EE37C1C0027C8B1 /* Foundation.framework */; };
 		ECC981600EE391B60027C8B1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECC9815F0EE391B60027C8B1 /* UIKit.framework */; };
 /* End PBXBuildFile section */
@@ -116,15 +116,15 @@
 		EC6D272F1CF7B2100007D1DB /* ATDefines.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ATDefines.m; path = ../Common/ATDefines.m; sourceTree = "<group>"; };
 		EC6D28721CF7B66A0007D1DB /* AppTrack_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppTrack_Prefix.pch; path = AppTrack/AppTrack_Prefix.pch; sourceTree = "<group>"; };
 		EC6D28781CF7B8EB0007D1DB /* AppTrack.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AppTrack.xcdatamodel; sourceTree = "<group>"; };
-		EC6D28D71CFE35B90007D1DB /* MHFoundation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MHFoundation.h; sourceTree = "<group>"; };
-		EC6D28D81CFE35B90007D1DB /* MHFoundationDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MHFoundationDefines.h; sourceTree = "<group>"; };
-		EC6D28D91CFE35B90007D1DB /* MHFoundationDefines.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MHFoundationDefines.m; sourceTree = "<group>"; };
-		EC6D28E01CFE35B90007D1DB /* NSDictionary+MH.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+MH.h"; sourceTree = "<group>"; };
-		EC6D28E11CFE35B90007D1DB /* NSDictionary+MH.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+MH.m"; sourceTree = "<group>"; };
 		EC79C67212E67BAE00F5E56B /* speed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = speed.png; sourceTree = "<group>"; };
 		EC79C67312E67BAE00F5E56B /* speed@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "speed@2x.png"; sourceTree = "<group>"; };
 		EC915C6C1C55B0DD0056DC06 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		EC915C961C55DD610056DC06 /* AppSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppSupport.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/PrivateFrameworks/AppSupport.framework; sourceTree = DEVELOPER_DIR; };
+		ECA799F11D01F676005AB8F7 /* MALFoundation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MALFoundation.h; sourceTree = "<group>"; };
+		ECA799F21D01F676005AB8F7 /* MALFoundationDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MALFoundationDefines.h; sourceTree = "<group>"; };
+		ECA799F31D01F676005AB8F7 /* MALFoundationDefines.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MALFoundationDefines.m; sourceTree = "<group>"; };
+		ECA799FA1D01F676005AB8F7 /* NSDictionary+MAL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+MAL.h"; sourceTree = "<group>"; };
+		ECA799FB1D01F676005AB8F7 /* NSDictionary+MAL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+MAL.m"; sourceTree = "<group>"; };
 		ECC980B70EE37C1C0027C8B1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		ECC9815F0EE391B60027C8B1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
@@ -229,7 +229,7 @@
 				EC615D211CFE411100CD0045 /* MHCydiaSubstrate */,
 				EC615D1F1CFE406400CD0045 /* MHAppSupport */,
 				EC615CF41CFE3FE800CD0045 /* MHData */,
-				EC6D28D41CFE35B90007D1DB /* MHFoundation */,
+				ECA799EE1D01F676005AB8F7 /* MALFoundation */,
 			);
 			name = Dependencies;
 			sourceTree = "<group>";
@@ -292,19 +292,6 @@
 			path = ../Dependencies/RocketBootstrap;
 			sourceTree = "<group>";
 		};
-		EC6D28D41CFE35B90007D1DB /* MHFoundation */ = {
-			isa = PBXGroup;
-			children = (
-				EC6D28D71CFE35B90007D1DB /* MHFoundation.h */,
-				EC6D28D81CFE35B90007D1DB /* MHFoundationDefines.h */,
-				EC6D28D91CFE35B90007D1DB /* MHFoundationDefines.m */,
-				EC6D28E01CFE35B90007D1DB /* NSDictionary+MH.h */,
-				EC6D28E11CFE35B90007D1DB /* NSDictionary+MH.m */,
-			);
-			name = MHFoundation;
-			path = ../Dependencies/MHFoundation/MHFoundation;
-			sourceTree = "<group>";
-		};
 		EC915C8D1C55CA4D0056DC06 /* Model */ = {
 			isa = PBXGroup;
 			children = (
@@ -324,6 +311,19 @@
 			name = Model;
 			sourceTree = "<group>";
 		};
+		ECA799EE1D01F676005AB8F7 /* MALFoundation */ = {
+			isa = PBXGroup;
+			children = (
+				ECA799F11D01F676005AB8F7 /* MALFoundation.h */,
+				ECA799F21D01F676005AB8F7 /* MALFoundationDefines.h */,
+				ECA799F31D01F676005AB8F7 /* MALFoundationDefines.m */,
+				ECA799FA1D01F676005AB8F7 /* NSDictionary+MAL.h */,
+				ECA799FB1D01F676005AB8F7 /* NSDictionary+MAL.m */,
+			);
+			name = MALFoundation;
+			path = ../Dependencies/MALFoundation/MALFoundation;
+			sourceTree = "<group>";
+		};
 		ECD0B2E714DBD32800CE3008 /* Common */ = {
 			isa = PBXGroup;
 			children = (
@@ -341,10 +341,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				EC6D27301CF7B2100007D1DB /* ATDefines.h in Headers */,
+				ECA79A091D01F676005AB8F7 /* NSDictionary+MAL.h in Headers */,
 				EC615D1D1CFE3FE800CD0045 /* NSPersistentStoreCoordinator+MH.h in Headers */,
 				EC615D0A1CFE3FE800CD0045 /* MHCoreDataStackManager.h in Headers */,
 				EC615D1B1CFE3FE800CD0045 /* NSManagedObjectModel+MH.h in Headers */,
 				EC6D27261CF7B1D60007D1DB /* ATSBUsage+CoreDataProperties.h in Headers */,
+				ECA79A001D01F676005AB8F7 /* MALFoundation.h in Headers */,
 				EC6D272C1CF7B1F70007D1DB /* ATSBManager.h in Headers */,
 				EC615D0D1CFE3FE800CD0045 /* MHDataDefines.h in Headers */,
 				EC6D27241CF7B1D60007D1DB /* ATSBUsage.h in Headers */,
@@ -354,14 +356,12 @@
 				EC6D27201CF7B1D60007D1DB /* ATSBLifecycle.h in Headers */,
 				EC615D171CFE3FE800CD0045 /* NSManagedObject+MH.h in Headers */,
 				EC6D271E1CF7B1D60007D1DB /* ATSBApp+CoreDataProperties.h in Headers */,
-				EC6D28E61CFE35B90007D1DB /* MHFoundation.h in Headers */,
-				EC6D28EF1CFE35B90007D1DB /* NSDictionary+MH.h in Headers */,
 				EC615D2E1CFE41E200CD0045 /* bootstrap.h in Headers */,
 				EC6D28731CF7B66A0007D1DB /* AppTrack_Prefix.pch in Headers */,
+				ECA79A011D01F676005AB8F7 /* MALFoundationDefines.h in Headers */,
 				EC6D271C1CF7B1D60007D1DB /* ATSBApp.h in Headers */,
 				EC615D151CFE3FE800CD0045 /* NSEntityDescription+MH.h in Headers */,
 				EC6D27221CF7B1D60007D1DB /* ATSBLifecycle+CoreDataProperties.h in Headers */,
-				EC6D28E71CFE35B90007D1DB /* MHFoundationDefines.h in Headers */,
 				EC615D131CFE3FE800CD0045 /* MHPersistentStoreBridge.h in Headers */,
 				EC615D0F1CFE3FE800CD0045 /* MHFetchedResultsController.h in Headers */,
 				EC615D0C1CFE3FE800CD0045 /* MHData.h in Headers */,
@@ -422,13 +422,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EC6D28E81CFE35B90007D1DB /* MHFoundationDefines.m in Sources */,
 				EC6D27271CF7B1D60007D1DB /* ATSBUsage+CoreDataProperties.m in Sources */,
 				EC6D272D1CF7B1F70007D1DB /* ATSBManager.m in Sources */,
 				EC615D141CFE3FE800CD0045 /* MHPersistentStoreBridge.m in Sources */,
-				EC6D28F01CFE35B90007D1DB /* NSDictionary+MH.m in Sources */,
 				EC6D27251CF7B1D60007D1DB /* ATSBUsage.m in Sources */,
 				EC615D161CFE3FE800CD0045 /* NSEntityDescription+MH.m in Sources */,
+				ECA79A0A1D01F676005AB8F7 /* NSDictionary+MAL.m in Sources */,
 				EC6D27211CF7B1D60007D1DB /* ATSBLifecycle.m in Sources */,
 				EC6D28791CF7B8EB0007D1DB /* AppTrack.xcdatamodeld in Sources */,
 				EC615D181CFE3FE800CD0045 /* NSManagedObject+MH.m in Sources */,
@@ -438,6 +437,7 @@
 				EC615D0E1CFE3FE800CD0045 /* MHDataDefines.m in Sources */,
 				EC6D27231CF7B1D60007D1DB /* ATSBLifecycle+CoreDataProperties.m in Sources */,
 				EC615D0B1CFE3FE800CD0045 /* MHCoreDataStackManager.m in Sources */,
+				ECA79A021D01F676005AB8F7 /* MALFoundationDefines.m in Sources */,
 				EC6D271F1CF7B1D60007D1DB /* ATSBApp+CoreDataProperties.m in Sources */,
 				EC615D1E1CFE3FE800CD0045 /* NSPersistentStoreCoordinator+MH.m in Sources */,
 				EC6D27311CF7B2100007D1DB /* ATDefines.m in Sources */,
@@ -469,7 +469,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = AppTrack/AppTrack_Prefix.pch;
 				HEADER_SEARCH_PATHS = (
-					../Dependencies/MHFoundation,
+					../Dependencies/MALFoundation,
 					../Dependencies/MHAppSupport,
 					../Dependencies/MHData,
 				);
@@ -500,7 +500,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = AppTrack/AppTrack_Prefix.pch;
 				HEADER_SEARCH_PATHS = (
-					../Dependencies/MHFoundation,
+					../Dependencies/MALFoundation,
 					../Dependencies/MHAppSupport,
 					../Dependencies/MHData,
 				);
