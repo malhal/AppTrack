@@ -1,9 +1,6 @@
 [submodule "Development/AppTrackClient/PlainDefaultImage"]
 	path = Development/AppTrackClient/PlainDefaultImage
 	url = https://github.com/malhal/PlainDefaultImage.git
-[submodule "Dependencies/MHFoundation"]
-	path = Dependencies/MHFoundation
-	url = https://github.com/malhal/MHFoundation.git
 [submodule "Dependencies/MHData"]
 	path = Dependencies/MHData
 	url = https://github.com/malhal/MHData.git
@@ -16,3 +13,6 @@
 [submodule "Dependencies/RocketBootstrap"]
 	path = Dependencies/RocketBootstrap
 	url = https://github.com/rpetrich/RocketBootstrap.git
+[submodule "Dependencies/MALFoundation"]
+	path = Dependencies/MALFoundation
+	url = https://github.com/malhal/MALFoundation.git
