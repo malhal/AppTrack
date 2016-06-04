@@ -13,6 +13,6 @@
 [submodule "Dependencies/RocketBootstrap"]
 	path = Dependencies/RocketBootstrap
 	url = https://github.com/rpetrich/RocketBootstrap.git
-[submodule "Dependencies/MALFoundation"]
-	path = Dependencies/MALFoundation
-	url = https://github.com/malhal/MALFoundation.git
+[submodule "Dependencies/MHFoundation"]
+	path = Dependencies/MHFoundation
+	url = https://github.com/malhal/MHFoundation.git

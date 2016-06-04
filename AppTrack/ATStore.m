@@ -12,7 +12,7 @@
 #import "rocketbootstrap.h"
 #import "ATQuery+Private.h"
 #import "ATObjectType+Private.h"
-#import "NSDictionary+MAL.h"
+#import "NSDictionary+MHF.h"
 
 @interface ATStore()
 
@@ -49,7 +49,7 @@
         NSArray* results = reply[@"results"];
         NSMutableArray* objects = [NSMutableArray array];
         for(NSDictionary* resultTypeDictionary in results){ // keys are all flat paths like @"app.bundleIdentifier".
-            NSDictionary* treeDict = [resultTypeDictionary mal_unflattenDictionary];
+            NSDictionary* treeDict = [resultTypeDictionary mhf_unflattenDictionary];
             ATObject* usage = [[query.objectType.objectClass alloc] initWithDictionary:treeDict];
             [objects addObject:usage];
         }

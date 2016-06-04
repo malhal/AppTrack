@@ -24,3 +24,4 @@ Todo
 
 Make it so App can be queried by making a key prefix change e.g. app.bundleIdentifier so it works if its not a relation.
 Filter out modifys from XCode deploy.
+Rename to ATK for App Track Kit and 3 letter prefix.
