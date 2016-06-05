@@ -24,4 +24,12 @@ Todo
 
 Make it so App can be queried by making a key prefix change e.g. app.bundleIdentifier so it works if its not a relation.
 Filter out modifys from XCode deploy.
-Rename to ATK for App Track Kit and 3 letter prefix.
+Rename to AUK for App Track Kit and 3 letter prefix.
+
+Tweak
+-----
+1.2 18-05-2016
+Public
+- Now shows Springboard usage, note using the app switcher is springboard. Using the nofitication center with an app is not. Also shows lock screen usage.
+Private
+- Changed to use frontDisplayDidChange

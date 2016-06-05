@@ -1,6 +1,0 @@
-framework module AppTrack {
-  umbrella header "AppTrack.h"
-
-  export *
-  module * { export * }
-}

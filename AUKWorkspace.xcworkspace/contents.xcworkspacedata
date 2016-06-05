@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:Notes.txt">
+   </FileRef>
+   <FileRef
+      location = "group:AppUsageKit.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:AppUsageKitTweak.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Development/AUKDev.xcodeproj">
+   </FileRef>
+</Workspace>
