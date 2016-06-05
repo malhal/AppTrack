@@ -2,7 +2,7 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:Notes.txt">
+      location = "group:/Users/mh/Development/Github/AppUsageKit/notes.txt">
    </FileRef>
    <FileRef
       location = "group:AppUsageKit.xcodeproj">
