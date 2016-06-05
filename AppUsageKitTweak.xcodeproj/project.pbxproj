@@ -175,7 +175,7 @@
 			isa = PBXGroup;
 			children = (
 				EC472C941D04B3C1009A1416 /* AppUsageKit */,
-				EC615CF31CFE387900CD0045 /* Dependencies */,
+				EC615CF31CFE387900CD0045 /* dependencies */,
 				EC915C8D1C55CA4D0056DC06 /* Model */,
 				EC472CB31D04BBEF009A1416 /* AUKTManager.h */,
 				EC472CB41D04BBEF009A1416 /* AUKTManager.m */,
@@ -209,7 +209,7 @@
 				EC472C821D04B39D009A1416 /* NSDictionary+MHF.m */,
 			);
 			name = MHFoundation;
-			path = Dependencies/MHFoundation/MHFoundation;
+			path = dependencies/MHFoundation/MHFoundation;
 			sourceTree = "<group>";
 		};
 		EC472C941D04B3C1009A1416 /* AppUsageKit */ = {
@@ -221,7 +221,7 @@
 			name = AppUsageKit;
 			sourceTree = "<group>";
 		};
-		EC615CF31CFE387900CD0045 /* Dependencies */ = {
+		EC615CF31CFE387900CD0045 /* dependencies */ = {
 			isa = PBXGroup;
 			children = (
 				EC615D2A1CFE41B500CD0045 /* RocketBootstrap */,
@@ -230,7 +230,7 @@
 				EC615CF41CFE3FE800CD0045 /* MHData */,
 				EC472C751D04B39D009A1416 /* MHFoundation */,
 			);
-			name = Dependencies;
+			name = dependencies;
 			sourceTree = "<group>";
 		};
 		EC615CF41CFE3FE800CD0045 /* MHData */ = {
@@ -259,7 +259,7 @@
 				EC615D091CFE3FE800CD0045 /* NSPersistentStoreCoordinator+MH.m */,
 			);
 			name = MHData;
-			path = Dependencies/MHData/MHData;
+			path = dependencies/MHData/MHData;
 			sourceTree = "<group>";
 		};
 		EC615D1F1CFE406400CD0045 /* MHAppSupport */ = {
@@ -268,7 +268,7 @@
 				EC615D201CFE406400CD0045 /* CPDistributedMessagingCenter.h */,
 			);
 			name = MHAppSupport;
-			path = Dependencies/MHAppSupport/MHAppSupport;
+			path = dependencies/MHAppSupport/MHAppSupport;
 			sourceTree = "<group>";
 		};
 		EC615D211CFE411100CD0045 /* MHCydiaSubstrate */ = {
@@ -277,7 +277,7 @@
 				EC615D221CFE411100CD0045 /* CydiaSubstrate.framework */,
 			);
 			name = MHCydiaSubstrate;
-			path = Dependencies/MHCydiaSubstrate/MHCydiaSubstrate;
+			path = dependencies/MHCydiaSubstrate/MHCydiaSubstrate;
 			sourceTree = "<group>";
 		};
 		EC615D2A1CFE41B500CD0045 /* RocketBootstrap */ = {
@@ -288,7 +288,7 @@
 				EC615D2D1CFE41E200CD0045 /* rocketbootstrap.h */,
 			);
 			name = RocketBootstrap;
-			path = Dependencies/RocketBootstrap;
+			path = dependencies/RocketBootstrap;
 			sourceTree = "<group>";
 		};
 		EC915C8D1C55CA4D0056DC06 /* Model */ = {
@@ -438,7 +438,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SDKROOT)$(SYSTEM_LIBRARY_DIR)/PrivateFrameworks\"",
-					"$(PROJECT_DIR)/Dependencies/MHCydiaSubstrate/MHCydiaSubstrate",
+					"$(PROJECT_DIR)/dependencies/MHCydiaSubstrate/MHCydiaSubstrate",
 				);
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_FIX_AND_CONTINUE = YES;
@@ -447,9 +447,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = AppUsageKitTweak/AppUsageKitTweak_Prefix.pch;
 				HEADER_SEARCH_PATHS = (
-					Dependencies/MHFoundation,
-					Dependencies/MHAppSupport,
-					Dependencies/MHData,
+					dependencies/MHFoundation,
+					dependencies/MHAppSupport,
+					dependencies/MHData,
 				);
 				INSTALL_PATH = /usr/local/lib;
 				LIBRARY_SEARCH_PATHS = (
@@ -471,15 +471,15 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SDKROOT)$(SYSTEM_LIBRARY_DIR)/PrivateFrameworks\"",
-					"$(PROJECT_DIR)/Dependencies/MHCydiaSubstrate/MHCydiaSubstrate",
+					"$(PROJECT_DIR)/dependencies/MHCydiaSubstrate/MHCydiaSubstrate",
 				);
 				GCC_MODEL_TUNING = G5;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = AppUsageKitTweak/AppUsageKitTweak_Prefix.pch;
 				HEADER_SEARCH_PATHS = (
-					Dependencies/MHFoundation,
-					Dependencies/MHAppSupport,
-					Dependencies/MHData,
+					dependencies/MHFoundation,
+					dependencies/MHAppSupport,
+					dependencies/MHData,
 				);
 				INSTALL_PATH = /usr/local/lib;
 				LIBRARY_SEARCH_PATHS = (

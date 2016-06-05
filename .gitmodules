@@ -1,0 +1,18 @@
+[submodule "dependencies/MHFoundation"]
+	path = dependencies/MHFoundation
+	url = https://github.com/malhal/MHFoundation.git
+[submodule "dependencies/RocketBootstrap"]
+	path = dependencies/RocketBootstrap
+	url = https://github.com/rpetrich/RocketBootstrap.git
+[submodule "dependencies/MHAppSupport"]
+	path = dependencies/MHAppSupport
+	url = https://github.com/malhal/MHAppSupport.git
+[submodule "dependencies/PlainDefaultImage"]
+	path = dependencies/PlainDefaultImage
+	url = https://github.com/malhal/PlainDefaultImage.git
+[submodule "dependencies/MHData"]
+	path = dependencies/MHData
+	url = https://github.com/malhal/MHData.git
+[submodule "dependencies/MHCydiaSubstrate"]
+	path = dependencies/MHCydiaSubstrate
+	url = https://github.com/malhal/MHCydiaSubstrate.git

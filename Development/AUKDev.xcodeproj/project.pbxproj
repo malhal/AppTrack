@@ -117,15 +117,15 @@
 				EC472C6A1D034053009A1416 /* Default@2x~iphone.png */,
 			);
 			name = PlainDefaultImage;
-			path = ../../Dependencies/PlainDefaultImage/PlainDefaultImage;
+			path = ../../dependencies/PlainDefaultImage/PlainDefaultImage;
 			sourceTree = "<group>";
 		};
-		EC472C741D034056009A1416 /* Dependencies */ = {
+		EC472C741D034056009A1416 /* dependencies */ = {
 			isa = PBXGroup;
 			children = (
 				EC472C611D034053009A1416 /* PlainDefaultImage */,
 			);
-			name = Dependencies;
+			name = dependencies;
 			sourceTree = "<group>";
 		};
 		EC915C981C55DDD30056DC06 = {
@@ -149,7 +149,7 @@
 		EC915CA31C55DDD30056DC06 /* AUKDev */ = {
 			isa = PBXGroup;
 			children = (
-				EC472C741D034056009A1416 /* Dependencies */,
+				EC472C741D034056009A1416 /* dependencies */,
 				EC915CA71C55DDD30056DC06 /* AppDelegate.h */,
 				EC915CA81C55DDD30056DC06 /* AppDelegate.m */,
 				EC915CAA1C55DDD30056DC06 /* MasterViewController.h */,
