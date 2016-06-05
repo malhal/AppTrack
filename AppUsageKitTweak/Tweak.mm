@@ -5,7 +5,7 @@
 #import "AUKTApp.h"
 #import "AUKTUsage.h"
 #import "AUKTLifecycle.h"
-#import <MHData/NSManagedObjectContext+MH.h>
+#import <MHData/NSManagedObjectContext+MHD.h>
 
 //Make sure you codesign
 
@@ -183,12 +183,12 @@ static void replaced_SBApplicationController_sendInstalledAppsDidChangeNotificat
         NSDictionary* dict = @{@"bundleIdentifier" : bundleIdentifier,
                                @"bundleVersion" : bundleVersion};
         BOOL inserted;
-        AUKTApp* app = (AUKTApp*)[c mh_fetchOrInsertObjectWithEntityName:[AUKTApp entityName] dictionary:dict inserted:&inserted error:error];
+        AUKTApp* app = (AUKTApp*)[c mhd_fetchOrInsertObjectWithEntityName:[AUKTApp entityName] dictionary:dict inserted:&inserted error:error];
         if(!app){
             NSLog(@"error fetching/inserting app %@", *error);
             return NO;
         }
-        AUKTLifecycle* lifecycle = (AUKTLifecycle*)[c mh_insertNewObjectForEntityName:[AUKTLifecycle entityName]];
+        AUKTLifecycle* lifecycle = (AUKTLifecycle*)[c mhd_insertNewObjectForEntityName:[AUKTLifecycle entityName]];
         lifecycle.app = app;
         lifecycle.date = date;
         lifecycle.changeType = changeType;
@@ -297,9 +297,9 @@ static void replaced_SpringBoard_frontDisplayDidChange$(SpringBoard* self, SEL s
                                @"bundleVersion" : prevBundleVersion};
         BOOL inserted;
         NSError* error;
-        AUKTApp* app = (AUKTApp*)[c mh_fetchOrInsertObjectWithEntityName:[AUKTApp entityName] dictionary:dict inserted:&inserted error:&error];
+        AUKTApp* app = (AUKTApp*)[c mhd_fetchOrInsertObjectWithEntityName:[AUKTApp entityName] dictionary:dict inserted:&inserted error:&error];
         if(app){
-            AUKTUsage* track = (AUKTUsage*)[c mh_insertNewObjectForEntityName:[AUKTUsage entityName]];
+            AUKTUsage* track = (AUKTUsage*)[c mhd_insertNewObjectForEntityName:[AUKTUsage entityName]];
             track.app = app;
             track.startDate = startDate;
             // set how long the app was used.

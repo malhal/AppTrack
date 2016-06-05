@@ -6,8 +6,8 @@
 //
 //
 
-#import <MHData/MHCoreDataStackManager.h>
+#import <MHData/MHDStackManager.h>
 
-@interface AUKTManager : MHDATA_ADD_PREFIX(MHCoreDataStackManager)
+@interface AUKTManager : MHDStackManager
 
 @end

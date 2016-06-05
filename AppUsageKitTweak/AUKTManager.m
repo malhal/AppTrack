@@ -10,7 +10,7 @@
 #import "CPDistributedMessagingCenter.h"
 #define ROCKETBOOTSTRAP_LOAD_DYNAMIC 1
 #import "rocketbootstrap.h"
-#import <MHData/NSManagedObjectContext+MH.h>
+#import <MHData/NSManagedObjectContext+MHD.h>
 #import "AppUsageKitDefines.h"
 
 @implementation AUKTManager
@@ -61,7 +61,7 @@
     }
     
     __block NSError* error;
-    NSManagedObjectContext* context = [self.mainContext mh_createPrivateQueueContextWithError:&error];
+    NSManagedObjectContext* context = [self.mainContext mhd_createPrivateQueueContextWithError:&error];
     if(!context){
         NSLog(@"error creating private context %@", error);
         return [self errorReplyWithError:error];
