@@ -11,6 +11,6 @@
       location = "group:AppUsageKitTweak.xcodeproj">
    </FileRef>
    <FileRef
-      location = "group:Development/AUKDev.xcodeproj">
+      location = "group:dev/AUKDev.xcodeproj">
    </FileRef>
 </Workspace>
