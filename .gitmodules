@@ -7,9 +7,6 @@
 [submodule "Dependencies/MHCydiaSubstrate"]
 	path = Dependencies/MHCydiaSubstrate
 	url = https://github.com/malhal/MHCydiaSubstrate.git
-[submodule "Dependencies/RocketBootstrap"]
-	path = Dependencies/RocketBootstrap
-	url = https://github.com/rpetrich/RocketBootstrap.git
 [submodule "Dependencies/MHFoundation"]
 	path = Dependencies/MHFoundation
 	url = https://github.com/malhal/MHFoundation.git
