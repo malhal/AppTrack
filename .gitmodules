@@ -13,3 +13,6 @@
 [submodule "Dependencies/PlainDefaultImage"]
 	path = Dependencies/PlainDefaultImage
 	url = https://github.com/malhal/PlainDefaultImage.git
+[submodule "Dependencies/RocketBootstrap"]
+	path = Dependencies/RocketBootstrap
+	url = https://github.com/rpetrich/RocketBootstrap.git
